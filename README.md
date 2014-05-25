@@ -8,7 +8,8 @@ From the assignment description: "You should also include a README.md in the rep
 So: There is only one script in this repo: run_analysis.R.
 
 The script assumes that the UCI HAR Dataset folder is in the working directory.
-Each of the steps listed below is labelled in the script.  Please see comments in the script for more explanation.
+
+*******Each of the steps listed below is labelled in the script.  Please see comments in the script for more explanation.
 
 Step 1.
 The script first reads in the features.txt file, which contains column names for the X_train.txt and X_test.txt files.
