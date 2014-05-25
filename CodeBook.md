@@ -98,10 +98,4 @@ The run_analysis.R script reads in the X_train.txt and Y_test.txt files, extract
 Next, the script aggregates the "everything" file by its subject and activity columns.  This produces the "aggregated" data frame.
 Each line of the "aggregated" data frame has the average of every variable for a certain activity-subject combination.
 
-For example, aggregated[1:3,1:3] gives the following:
-  subject activity time.body.acceleration.mean.x
-1       1  WALKING                     0.2773308
-2       2  WALKING                     0.2764266
-3       3  WALKING                     0.2755675
-
 The "aggregated" data frame is written out as "aggregated.txt".
